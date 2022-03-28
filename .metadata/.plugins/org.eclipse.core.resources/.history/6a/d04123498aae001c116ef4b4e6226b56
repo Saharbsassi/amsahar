@@ -1,0 +1,11 @@
+package entities;
+
+	public class Etudiant {
+		String nom; 
+		int age;
+		double moyenne;
+		String adresse;
+
+
+
+}

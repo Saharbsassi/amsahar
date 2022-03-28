@@ -1,0 +1,49 @@
+package com.sip.ams.entities;
+
+public class Etudiant {
+		private String nom; 
+		private int age;
+		private String email;
+		private String adresse;
+		private int tel;
+		public Etudiant(String nom,int age, String email,String adresse,int tel) {
+			this.nom = nom;
+			this.age = age;
+			this.email = email;
+			this.tel = tel;
+		}
+		
+		private String getNom() {
+			return nom;
+		}
+		private void setNom(String nom) {
+			this.nom = nom;
+		}
+		private int getAge() {
+			return age;
+		}
+		private void setAge(int age) {
+			this.age = age;
+		}
+		private String getEmail() {
+			return email;
+		}
+		private void setEmail(String email) {
+			this.email = email;
+		}
+		
+		private String getAdresse() {
+			return adresse;
+		}
+
+		private void setAdresse(String adresse) {
+			this.adresse = adresse;
+		}
+
+		private int getTel() {
+			return tel;
+		}
+		private void setTel(int tel) {
+			this.tel = tel;
+		}
+}

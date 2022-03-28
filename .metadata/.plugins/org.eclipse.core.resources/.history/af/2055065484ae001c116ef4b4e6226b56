@@ -1,0 +1,11 @@
+package com.example.demo.controllers;
+
+@Controller
+public class FirstController {
+	     @RequestMapping("/first")
+	     public String home()
+	     {
+	    	 return "home/app";
+	     }
+
+}

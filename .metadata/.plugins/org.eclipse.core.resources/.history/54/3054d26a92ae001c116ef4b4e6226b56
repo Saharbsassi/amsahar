@@ -1,0 +1,20 @@
+
+<head>
+<Meta chqrset="utf-_"/8>
+<title>Spring</title>
+</head>
+<body>
+<h1 align="center">Liste des étudiants de la formation</h1>
+
+<table border="1" align="center">
+     <tr><th>Nom</th><th>Age</th><th>Email</th><th>Adresse</th><th>Tel</th></tr>
+     <tr th:each="student:${students}">
+       <td th:text="{student.Nom}"></td>
+        <td th:text="{student.Age}"></td>
+         <td th:text="{student.Email}"></td>
+          <td th:text="{student.Adresse}"></td>
+           <td th:text="{student.Tel}"></td>
+     </tr>
+</table>
+</body>
+</html>

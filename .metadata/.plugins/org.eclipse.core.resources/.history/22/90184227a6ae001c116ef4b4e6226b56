@@ -1,0 +1,38 @@
+
+<head>
+<Meta charset="utf-_"/8>
+<title>Spring</title>
+<!-- link rel="stylesheet" href="/css/bootstrap.min.css"-->
+<link rel="stylesheet" th:href="@{css/bootstrap.min.css}"/>
+<link rel="stylesheet" th:href="@{/main.css}"/>
+</head>
+<body>
+<center><img th:src="@{images/téléchargement.png}" width="20%">
+<h1 align="center">Liste des étudiants de la formation</h1>
+<form method="post" action="#">
+<div class="form-group">
+			<label for="nom">Nom</label>
+			<input type="text" class="form-control" id="nom" 
+				placeholder="Enter nom">
+		</div>
+		<div class="form-group">
+			<label for="age">Age</label>
+			<input type="text" class="form-control" id="age" 
+				placeholder="Enter Age">
+		</div>
+		<div class="form-group">
+			<label for="tel">Tel°</label>
+			<input type="text" class="form-control" id="tel" 
+				placeholder="Enter Num Tel">
+		</div>
+		<div class="form-group">
+			<label for="adr">Adresse</label>
+			<input type="text" class="form-control" id="adr" 
+				placeholder="Enter Adresse">
+		</div>		
+		
+		<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</table>
+</body>
+</html>

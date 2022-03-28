@@ -1,0 +1,10 @@
+package entities;
+
+public class Etudiant {
+		String nom; 
+	    int age;
+		String email;
+		String tel;
+		String adresse;
+		
+}

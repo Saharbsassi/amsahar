@@ -1,0 +1,12 @@
+<html>
+<head>
+<Metq chqrset="utf-_"/8>
+</head>
+<body>
+<h1 align="center">Ma Premiére View</h1>
+
+<h2 th:text="${name}"></h2>
+
+<h3 th:text="${myUniversity}"></h3>
+</body>
+</html>
